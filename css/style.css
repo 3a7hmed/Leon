@@ -17,19 +17,19 @@ body{
 /*small*/
 @media(min-width:768px){
     .container{
-        width: 750px;
+        width: 700px;
     }
 }
 /*medium*/
 @media(min-width:992px){
     .container{
-        width: 970px;
+        width: 950px;
     }
 }
 /*larg*/
 @media(min-width:1200px){
     .container{
-        width: 1170px;
+        width: 1140px;
     }
 }
 /*end global rules*/
@@ -211,7 +211,7 @@ text-shadow:2px 2px #ffffff;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 50px;
     margin-top: 100px;
-    padding-left: 120px;
+    padding-left: 10px;
     margin-left: 15px;
 }
 .services .services-content .srv {
@@ -318,6 +318,14 @@ text-shadow:2px 2px #ffffff;
 background-color: #f6f6f6;
 margin-top: -25px;
 }
+@media (max-width: 767px) {
+    .portfolio .projects{
+        margin: 0%;
+    }
+    .portfolio .container .p-head{
+        font-size: 80px;
+    }
+}
 /*End portfolio*/
 /*start about*/
 .about{
@@ -364,7 +372,7 @@ margin-top: -25px;
 #top-right-line{
     border: 20px solid  #10cab7;
     width: 140px;
-    margin-left: -31%;
+    margin-left: -30%;
     padding: 0%;
     margin-right: auto;
     margin-top: -35px;
@@ -390,6 +398,11 @@ hr{
     }
     .about .content{
         justify-content: center;
+    }
+}
+@media (max-width: 767px){
+    .about .container .content .image img{
+        padding: 0%;
     }
 }
 /*End about*/
@@ -432,6 +445,11 @@ hr{
     height: 20px;
     display: inline-block;
 }
+@media (max-width: 767px){
+    .contact .container h3{
+        font-size: 80px;
+    }
+}
 /*End contact*/
 /*start footer*/
 footer{
@@ -448,5 +466,3 @@ footer{
     color: #10cab7;
 }
 /*End footer*/
-
-
