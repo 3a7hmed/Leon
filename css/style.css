@@ -200,6 +200,9 @@ text-shadow:2px 2px #ffffff;
     .s-heading{
         font-size: 85px;
     }
+    .idea{
+        margin:auto;
+    }
 }
 /*Start services*/
 .services{
@@ -321,6 +324,7 @@ margin-top: -25px;
 @media (max-width: 767px) {
     .portfolio .projects{
         margin: 0%;
+        padding-left:12%;
     }
     .portfolio .container .p-head{
         font-size: 80px;
