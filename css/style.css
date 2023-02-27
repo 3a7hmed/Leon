@@ -201,7 +201,7 @@ text-shadow:2px 2px #ffffff;
         font-size: 85px;
     }
     .idea{
-        margin:auto;
+        margin-left:-40px;
     }
 }
 /*Start services*/
