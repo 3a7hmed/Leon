@@ -125,7 +125,7 @@ position: relative;
 .landing{
     background-image: url(../image/3.jpg);
     background-size: cover;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 74px);
     position: relative;
     background-position: center;
 }
@@ -324,7 +324,7 @@ margin-top: -25px;
 @media (max-width: 767px) {
     .portfolio .projects{
         margin: 0%;
-        padding-left:12%;
+        padding-left:8%;
     }
     .portfolio .container .p-head{
         font-size: 80px;
@@ -440,7 +440,7 @@ hr{
 #second{
     text-align: center;
     color: #10cab7;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 900;
     line-height: 15px;
 }
