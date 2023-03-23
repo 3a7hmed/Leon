@@ -175,17 +175,6 @@ text-shadow:2px 2px #ffffff;
     text-align: center;
     margin-top: -27px;
 }
-@media (max-width: 767px){
-    .s-heading + p{
-        margin-top: -23px;
-    }
-    .s-heading{
-        font-size: 85px;
-    }
-    .idea{
-        margin-left:-40px;
-    }
-}
 /*Start services*/
 .services{
     padding-top: 60px;
@@ -203,13 +192,6 @@ text-shadow:2px 2px #ffffff;
     display: flex;
     margin-bottom: 40px;
     padding: 0px 50px 0px 20px;
-}
-@media (max-width: 767px) {
-    .services .services-content .srv {
-        flex-direction: column;
-        text-align: center;
-        display: inherit;
-    }
 }
 .services .services-content .srv .text {
     flex: 1;
@@ -264,10 +246,6 @@ text-shadow:2px 2px #ffffff;
     float: right;
     margin-top: -117%;
     margin-right: 0%;
-}
-@media (max-width: 1199px) {
-    .image-column , #right-srv-line {display: none;}
-    .service-img{display: none;}
 } 
 /*End services*/  
 /*start portfolio*/
@@ -302,15 +280,6 @@ text-shadow:2px 2px #ffffff;
 .portfolio .projects .project_text{
 background-color: #f6f6f6;
 margin-top: -25px;
-}
-@media (max-width: 767px) {
-    .portfolio .projects{
-        margin: 0%;
-        padding-left:8%;
-    }
-    .portfolio .container .p-head{
-        font-size: 80px;
-    }
 }
 /*End portfolio*/
 /*start about*/
@@ -378,19 +347,6 @@ hr{
     width: 40%;
     display: inline-block;
 }
-@media (max-width: 1199px){
-    #left-line , #right-line , #top-right-line ,#bottom-right-line {
-        display:none;
-    }
-    .about .content{
-        justify-content: center;
-    }
-}
-@media (max-width: 767px){
-    .about .container .content .image img{
-        padding: 0%;
-    }
-}
 /*End about*/
 /*start contact*/
 .contact{
@@ -431,11 +387,6 @@ hr{
     height: 20px;
     display: inline-block;
 }
-@media (max-width: 767px){
-    .contact .container h3{
-        font-size: 80px;
-    }
-}
 /*End contact*/
 /*start footer*/
 footer{
@@ -455,16 +406,57 @@ footer{
 
 
 /*small*/
-@media(min-width:768px){
-    .container{
-        width: 700px;
+@media (max-width: 767px){
+    .s-heading + p{
+        margin-top: -23px;
+    }
+    .s-heading{
+        font-size: 80px;
+        padding-left:15px;
+    }
+    .idea{
+        margin-left:-40px;
+    }
+    .contact .container h3{
+        font-size: 80px;
+    }
+    .contact-tect a{
+        text-align:center;
+    }
+    .about .container .content .image img{
+        padding: 0%;
+        width:320px;
+    }
+    .about-text{
+        padding:10px;
+    }
+    .portfolio .projects{
+        margin: 0%;
+        padding-left:8%;
+        justify-content:center;
+    }
+    .portfolio .container .p-head{
+        font-size: 80px;
+    }
+    .services .services-content .srv {
+        flex-direction: column;
+        text-align: center;
+        display: inherit;
+    }
+    #second{
+        font-size:26px;
     }
 }
 /*medium*/
-@media(min-width:992px){
-    .container{
-        width: 950px;
+@media screen and (min-width:992px) and (max-width: 1199px){
+    #left-line , #right-line , #top-right-line ,#bottom-right-line {
+        display:none;
     }
+    .about .content{
+        justify-content: center;
+    }
+    .image-column , #right-srv-line {display: none;}
+    .service-img{display: none;}
 }
 /*larg*/
 @media(min-width:1200px){
