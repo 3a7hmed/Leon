@@ -406,7 +406,7 @@ footer{
 
 
 /*small*/
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
     .s-heading + p{
         margin-top: -23px;
     }
@@ -441,6 +441,7 @@ footer{
         padding-left:8%;
         justify-content:center;
     }
+    .portfolio .container{padding:0;}
     .portfolio .container .p-head{
         font-size: 80px;
     }
