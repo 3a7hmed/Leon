@@ -446,6 +446,13 @@ footer{
     #second{
         font-size:26px;
     }
+    #bottom-right-line , #top-right-line , #right-line , #left-line {
+        display:none;
+    }
+    #right-srv-line{
+        height:380px;
+        margin-top:-142%;
+    }
 }
 /*medium*/
 @media screen and (min-width:992px) and (max-width: 1199px){
