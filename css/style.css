@@ -417,19 +417,25 @@ footer{
     .idea{
         margin-left:-40px;
     }
+    .contact{
+        padding-top:0;
+    }
+    
     .contact .container h3{
         font-size: 80px;
     }
     .contact-tect a{
         text-align:center;
     }
-    .about .container .content .image img{
-        padding: 0%;
-        width:320px;
-    }
     .about-text{
-        padding:10px;
+        padding: 10px;
+        margin-top: -120px;
+        text-align: center;
     }
+    .about-text hr{
+        width:80%;
+    }
+    
     .portfolio .projects{
         margin: 0%;
         padding-left:8%;
@@ -446,7 +452,7 @@ footer{
     #second{
         font-size:26px;
     }
-    #bottom-right-line , #top-right-line , #right-line , #left-line {
+    #bottom-right-line , #top-right-line , #right-line , #left-line , .about .container .content .image img {
         display:none;
     }
     #right-srv-line{
