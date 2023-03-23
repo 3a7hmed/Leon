@@ -498,5 +498,15 @@ footer{
         justify-content: center;
     }
     .image-column , #right-srv-line {display: none;}
+    
     .service-img{display: none;}
+    
+    about-text{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .idea .container{
+        display:flex;
+    }
 }
