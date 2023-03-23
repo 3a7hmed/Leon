@@ -14,24 +14,6 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-/*small*/
-@media(min-width:768px){
-    .container{
-        width: 700px;
-    }
-}
-/*medium*/
-@media(min-width:992px){
-    .container{
-        width: 950px;
-    }
-}
-/*larg*/
-@media(min-width:1200px){
-    .container{
-        width: 1140px;
-    }
-}
 /*end global rules*/
 /*start header*/
 .header{
@@ -470,3 +452,23 @@ footer{
     color: #10cab7;
 }
 /*End footer*/
+
+
+/*small*/
+@media(min-width:768px){
+    .container{
+        width: 700px;
+    }
+}
+/*medium*/
+@media(min-width:992px){
+    .container{
+        width: 950px;
+    }
+}
+/*larg*/
+@media(min-width:1200px){
+    .container{
+        width: 1140px;
+    }
+}
